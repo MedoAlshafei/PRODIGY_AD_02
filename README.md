@@ -1,8 +1,7 @@
-# ✅ to_do_list
+# ✅ ***to_do_list***
 
 - A Todo app built used Flutter.
 
-## ✨ Features
+## ✨ ***Features***
 
 - A simple UI with beautiful colors.
-- 
