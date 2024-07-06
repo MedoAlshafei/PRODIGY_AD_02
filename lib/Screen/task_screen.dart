@@ -7,9 +7,9 @@ class TasksScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
-      floatingActionButton: FloatingActionButton(
+      floatingActionButton: const FloatingActionButton(
         onPressed: null,
-        backgroundColor: const Color.fromARGB(255, 216, 122, 0),
+        backgroundColor: Color.fromARGB(255, 216, 122, 0),
         child: Icon(Icons.add),
       ),
       backgroundColor: const Color.fromARGB(255, 4, 81, 116),
@@ -23,7 +23,7 @@ class TasksScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Row(
+            const Row(
               children: [
                 Icon(
                   Icons.playlist_add_check,
@@ -41,17 +41,17 @@ class TasksScreen extends StatelessWidget {
                 )
               ],
             ),
-            Text(
+            const Text(
               '4 Tasks',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 18,
               ),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             Expanded(
               child: Container(
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.all(
                     Radius.circular(20),
