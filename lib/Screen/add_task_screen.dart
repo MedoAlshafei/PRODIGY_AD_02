@@ -15,7 +15,7 @@ class AddTaskScreen extends StatelessWidget {
               style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
-                color: Colors.black,
+                color: Color.fromARGB(255, 0, 31, 61),
               )),
           const SizedBox(height: 16),
           const TextField(
@@ -26,7 +26,7 @@ class AddTaskScreen extends StatelessWidget {
           TextButton(
             onPressed: () {},
             style: TextButton.styleFrom(
-              backgroundColor: Colors.teal[400],
+              backgroundColor: const Color.fromARGB(255, 216, 122, 0),
               foregroundColor: Colors.white,
             ),
             child: const Text('Add'),

@@ -33,7 +33,7 @@ class TaskCheckbox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Checkbox(
-      activeColor: Colors.teal[400],
+      activeColor: const Color.fromARGB(255, 14, 13, 11),
       value: checkboxState,
       onChanged: checkboxChange,
     );
